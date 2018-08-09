@@ -1,0 +1,19 @@
+{
+  "name": "thetask",
+  "version": "1.0.0",
+  "main": "app.js",
+  "dependencies": {
+    "@uirouter/angularjs": "^1.0.18",
+    "angular": "^1.7.2",
+    "angular-cookies": "^1.7.2",
+    "express": "^4.16.3",
+    "mongodb": "^3.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

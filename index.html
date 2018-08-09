@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Video library</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="all,follow">
+ 
+  <!-- angularJS components and controllers -->
+  <script src="node_modules/angular/angular.min.js"></script>
+  <script src="node_modules/@uirouter/angularjs/release/angular-ui-router.min.js"></script>
+  <script src="node_modules/angular-cookies/angular-cookies.min.js"></script>
+  <script src="controllers/app.js"></script>
+  <script src="controllers/routing.js"></script>
+  <script src="controllers/loginController.js"></script>\
+  <script src="controllers/mainController.js"></script>
+  <script src="controllers/userControllers.js"></script>
+  <script src="controllers/videosControllers.js"></script>
+   <!-- JavaScript files-->
+   <script src="html/vendor/jquery/jquery.min.js"></script>
+   <script src="html/vendor/popper.js/umd/popper.min.js"> </script>
+   <script src="html/vendor/bootstrap/js/bootstrap.min.js"></script>
+   <script src="html/js/grasp_mobile_progress_circle-1.0.0.min.js"></script>
+   <script src="html/vendor/jquery.cookie/jquery.cookie.js"> </script>
+   <script src="html/vendor/chart/Chart.min.js"></script>
+   <script src="html/vendor/jquery-validation/jquery.validate.min.js"></script>
+   <script src="html/vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>
+   <script src="html/js/charts-home.js"></script>
+   <!-- Main File-->
+   <script src="html/js/front.js"></script>
+  <!-- Bootstrap CSS-->
+  <link rel="stylesheet" href="html/vendor/bootstrap/css/bootstrap.min.css">
+  <!-- Font Awesome CSS-->
+  <link rel="stylesheet" href="html/vendor/font-awesome/css/font-awesome.min.css">
+  <!-- Fontastic Custom icon font-->
+  <link rel="stylesheet" href="html/css/fontastic.css">
+  <!-- Google fonts - Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+  <!-- jQuery Circle-->
+  <link rel="stylesheet" href="html/css/grasp_mobile_progress_circle-1.0.0.min.css">
+  <!-- Custom Scrollbar-->
+  <link rel="stylesheet" href="html/vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css">
+  <!-- theme stylesheet-->
+  <link rel="stylesheet" href="html/css/style.blue.css" id="theme-stylesheet">
+  <!-- Custom stylesheet - for your changes-->
+  <link rel="stylesheet" href="html/css/custom.css">
+  <!-- Favicon-->
+  <link rel="shortcut icon" href="html/img/favicon.ico">
+  <!-- Tweaks for older IEs-->
+  <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+</head>
+<body ng-app="mainApp">
+  <div ui-view></div>
+</body>
+</html>
