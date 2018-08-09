@@ -12,9 +12,12 @@ Technology used:
   3. AngularJS with ui-router component and ng-cookies
 
 To run this project you need to:
-  1. Download MongoDB and create a database called "app" and import the two JSON files in the database folder into that "app" database then create a text index in each collection one for "name" in the "users" collection and one for "title" in the "videos" collection. Then the database is set to go.
+  1. Download MongoDB and create a database called "app"
+  2. Create two collections one called "videos" and on called "users"
+  3. import the two JSON files in the database folder into that "app" database then create a text index in each collection one for "name" in the "users" collection and one for "title" in the "videos" collection. Then the database is set to go.
   
   note: (the text indexes are for the search functionality)
+  
   2. Download Node.js
   
 
