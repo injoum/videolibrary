@@ -1,0 +1,55 @@
+<section class="main">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="card  animated fadeIn">
+                        <div class="card-close">
+                        </div>
+                        <div class="card-header d-flex align-items-center">
+                            <h3 class="h3">Add Video</h3>
+                        </div>
+                        <div class="card-body">
+                            <p>Add New Video</p>
+                            <form class="form-horizontal form-validate">
+                                <div class="col-lg-12">
+                                    <div class="form-group row">
+                                        <label class="col-sm-3 form-control-label">Title</label>
+                                        <div class="col-sm-9">
+                                            <input id="title" ng-model="video.title" type="text" placeholder="Title" class="input-material" ng-required="true">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label class="col-sm-3 form-control-label">Director</label>
+                                        <div class="col-sm-9 select">
+                                            <input id="director" ng-model="video.director" type="text" placeholder="Director" class="input-material" ng-required="true">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label class="col-sm-3 form-control-label">Actors</label>
+                                        <div class="col-sm-9">
+                                            <input id="actors" ng-model="video.actors" type="text" placeholder="Actors" class="input-material">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label class="col-sm-3 form-control-label">Duration</label>
+                                        <div class="col-sm-9">
+                                            <input type="number" ng-model="video.duration" id="duration" placeholder="Duration" class="input-material" >
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <div class="col-sm-9 offset-sm-3 nowrap">
+                                            <a ui-sref="home.main.premium">
+                                                <input type="button" value="Back" class="btn btn-primary">
+                                            </a>
+                                            <input type="button" ng-click="addVideo()" value="Create Video" class="btn btn-success">
+                                            <input type="reset" value="Clear" class="btn btn-danger">
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
