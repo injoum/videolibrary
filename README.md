@@ -2,14 +2,14 @@
 Video library with user controll and permissions using angularjs and nodejs through mongodb
 
 Contents:
-  1.View non-premium videos and adding and editting them
-  2.View premium videos and adding and editting them depending on the permission of your user
-  3.View users and adding and editting them
+  1. View non-premium videos and adding and editting them
+  2. View premium videos and adding and editting them depending on the permission of your user
+  3. View users and adding and editting them
 
 Technology used:
-  1.MongoDB for the database
-  2.Node.JS with express framework
-  3.AngularJS with ui-router component and ng-cookies
+  1. MongoDB for the database
+  2. Node.JS with express framework
+  3. AngularJS with ui-router component and ng-cookies
 
 To run this project you need to download MongoDB and import the server file given in the repository, and download node.
 I used http-server simply to download that (after downloading node):
