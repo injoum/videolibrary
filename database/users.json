@@ -1,0 +1,2 @@
+{"_id":{"$oid":"5b6ab95ef6a29829308b8c67"},"name":"Ibrahim Njoum","username":"admin","password":"admin","premiumAccess":true,"userAccess":true}
+{"_id":{"$oid":"5b6b98104371a21a1866071b"},"premiumAccess":true,"userAccess":false,"username":"1","password":"1","name":"Jack Danial"}

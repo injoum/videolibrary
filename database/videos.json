@@ -1,0 +1,2 @@
+{"_id":{"$oid":"5b6c3861610588230803fda6"},"title":"Amazing Grace","director":"Ben Aflek","actors":["Ben Aflek"," Ibrahim Njoum"],"duration":{"$numberInt":"120"},"isPremium":false}
+{"_id":{"$oid":"5b6c4b6530fa28199406d1bf"},"title":"Amazing Grace","director":"Ben Aflek","actors":["Ben Aflek"," Ibrahim Njoum"],"duration":{"$numberInt":"143"},"isPremium":true}
