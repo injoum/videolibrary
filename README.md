@@ -43,4 +43,6 @@ for further setting you can enter 'server' folder and edit the 'app.js' file for
 for changing node.js port settings, you must change the server settings in angularjs in the 'controllers' folder in the 'app.js' file
 (you can change the link to the server).
 
+Finally to enter the program the username and password is both "admin"
+
 Hope everything work well. :)
